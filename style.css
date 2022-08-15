@@ -5,6 +5,13 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
+a{
+    color: white;
+}
+a.para:hover{
+    color: #0a66c2;
+    text-decoration: underline;
+}
 
 header{
     min-height: 9vh;
@@ -178,10 +185,12 @@ main form .links-container i {
 
 main form .links-container aside .google{
     color: #e34133;
+    
 }
 main form .links-container aside  .google:hover{
 background-color: #e34133;
 color: white;
+text-decoration: none;
 }
 main form .links-container aside .linkedin{
     color: #0a66c2;
@@ -189,6 +198,7 @@ main form .links-container aside .linkedin{
 main form .links-container aside  .linkedin:hover{
 background-color: #0a66c2;
 color: white;
+text-decoration: none;
 }
 main form .links-container aside .facebook{
     color: #14a0f9;
@@ -196,6 +206,7 @@ main form .links-container aside .facebook{
 main form .links-container aside  .facebook:hover{
 background-color: #14a0f9;
 color: white;
+text-decoration: none;
 }
 
 main form footer {
